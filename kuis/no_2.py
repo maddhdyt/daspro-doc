@@ -2,12 +2,12 @@
 #NIM: 2410482
 #Kelas: RPL 1C
 
-fieldLength = 80
-fieldWidth = 32
+fieldLength = int(input("Masukan Panjang Lapangan: "))
+fieldWidth = int(input("Masukan Lebar Lapangan: "))
 
 oneRound = fieldLength + fieldWidth * 2
 
-runningDistance = 7
+runningDistance = int(input("Masukan jarak berlari(km): "))
 
 totalRound = oneRound * runningDistance
 
